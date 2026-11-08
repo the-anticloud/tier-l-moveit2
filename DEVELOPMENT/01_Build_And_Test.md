@@ -1,0 +1,8 @@
+# Build & Test — L_MOVEIT2
+
+```bash
+git clone https://github.com/moveit/moveit2
+cd l-moveit2
+pip install -e .[dev]
+pytest tests/
+```

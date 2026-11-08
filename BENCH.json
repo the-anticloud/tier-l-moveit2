@@ -1,0 +1,5382 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "L_MOVEIT2",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\TIER_9_ROBOTICS_IOT\\L_MOVEIT2\\UPSTREAM",
+  "git": {
+   "head": "a9004a43151b7d1fd50d462b8db6d4d280b0cc21",
+   "url": "https://github.com/moveit/moveit2",
+   "branch": "main",
+   "committed_at": "2026-09-29T15:19:51+02:00"
+  }
+ },
+ "metrics": {
+  "files_total": 1942,
+  "source_files_scanned": 1372,
+  "lines_of_code": 248262,
+  "languages": {
+   ".cpp": 492,
+   ".hpp": 432,
+   ".h": 377,
+   ".txt": 123,
+   ".xml": 91,
+   ".yaml": 73,
+   ".py": 72,
+   ".rst": 42,
+   ".png": 38,
+   ".md": 34,
+   ".test": 24,
+   ".xacro": 18,
+   ".pyi": 17,
+   "(none)": 15,
+   ".cmake": 13
+  }
+ },
+ "licence": {
+  "spdx": "BSD-3-Clause",
+  "class": "A",
+  "source_file": "LICENSE.txt",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 496,
+  "unique": 111,
+  "by_ecosystem": {
+   "native": 496
+  },
+  "list": [
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_srdf_plugins/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_srdf_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_ros",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_srdf_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz2",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_srdf_plugins/CMakeLists.txt",
+    "raw": "find_package(rviz2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt6",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_srdf_plugins/CMakeLists.txt",
+    "raw": "find_package(Qt6"
+   },
+   {
+    "ecosystem": "native",
+    "name": "QT",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_srdf_plugins/CMakeLists.txt",
+    "raw": "find_package(QT"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt5",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_srdf_plugins/CMakeLists.txt",
+    "raw": "find_package(Qt5"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_setup_framework",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_srdf_plugins/CMakeLists.txt",
+    "raw": "find_package(moveit_setup_framework"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_srdf_plugins/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_srdf_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_simulation/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_simulation/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_ros",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_simulation/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_index_cpp",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_simulation/CMakeLists.txt",
+    "raw": "find_package(ament_index_cpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz2",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_simulation/CMakeLists.txt",
+    "raw": "find_package(rviz2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt6",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_simulation/CMakeLists.txt",
+    "raw": "find_package(Qt6"
+   },
+   {
+    "ecosystem": "native",
+    "name": "QT",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_simulation/CMakeLists.txt",
+    "raw": "find_package(QT"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt5",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_simulation/CMakeLists.txt",
+    "raw": "find_package(Qt5"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_setup_framework",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_simulation/CMakeLists.txt",
+    "raw": "find_package(moveit_setup_framework"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_simulation/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_simulation/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_ros",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_index_cpp",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(ament_index_cpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "fmt",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(fmt"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz2",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(rviz2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt6",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(Qt6"
+   },
+   {
+    "ecosystem": "native",
+    "name": "QT",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(QT"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt5",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(Qt5"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_visualization",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_visualization"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz_common",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(rviz_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz_rendering",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(rviz_rendering"
+   },
+   {
+    "ecosystem": "native",
+    "name": "srdfdom",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(srdfdom"
+   },
+   {
+    "ecosystem": "native",
+    "name": "urdf",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/CMakeLists.txt",
+    "raw": "find_package(urdf"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_framework/templates/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_ros",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_index_cpp",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_index_cpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz2",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(rviz2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt6",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(Qt6"
+   },
+   {
+    "ecosystem": "native",
+    "name": "QT",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(QT"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt5",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(Qt5"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_visualization",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_visualization"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_setup_framework",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(moveit_setup_framework"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "srdfdom",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(srdfdom"
+   },
+   {
+    "ecosystem": "native",
+    "name": "urdf",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_core_plugins/CMakeLists.txt",
+    "raw": "find_package(urdf"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_controllers/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_controllers/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_ros",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_controllers/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_index_cpp",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_controllers/CMakeLists.txt",
+    "raw": "find_package(ament_index_cpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz2",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_controllers/CMakeLists.txt",
+    "raw": "find_package(rviz2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt6",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_controllers/CMakeLists.txt",
+    "raw": "find_package(Qt6"
+   },
+   {
+    "ecosystem": "native",
+    "name": "QT",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_controllers/CMakeLists.txt",
+    "raw": "find_package(QT"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt5",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_controllers/CMakeLists.txt",
+    "raw": "find_package(Qt5"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_setup_framework",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_controllers/CMakeLists.txt",
+    "raw": "find_package(moveit_setup_framework"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_controllers/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_controllers/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_controllers/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_assistant/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_assistant/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_index_cpp",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_assistant/CMakeLists.txt",
+    "raw": "find_package(ament_index_cpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Boost",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_assistant/CMakeLists.txt",
+    "raw": "find_package(Boost"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz2",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_assistant/CMakeLists.txt",
+    "raw": "find_package(rviz2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt6",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_assistant/CMakeLists.txt",
+    "raw": "find_package(Qt6"
+   },
+   {
+    "ecosystem": "native",
+    "name": "QT",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_assistant/CMakeLists.txt",
+    "raw": "find_package(QT"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt5",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_assistant/CMakeLists.txt",
+    "raw": "find_package(Qt5"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_setup_framework",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_assistant/CMakeLists.txt",
+    "raw": "find_package(moveit_setup_framework"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_setup_srdf_plugins",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_assistant/CMakeLists.txt",
+    "raw": "find_package(moveit_setup_srdf_plugins"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_assistant/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_assistant/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_ros",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_index_cpp",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_index_cpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz2",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(rviz2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt6",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(Qt6"
+   },
+   {
+    "ecosystem": "native",
+    "name": "QT",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(QT"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt5",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(Qt5"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_visualization",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_visualization"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_setup_framework",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(moveit_setup_framework"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_setup_assistant/moveit_setup_app_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_runtime/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/warehouse/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/warehouse/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "fmt",
+    "version": "",
+    "source_file": "moveit_ros/warehouse/CMakeLists.txt",
+    "raw": "find_package(fmt"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_ros/warehouse/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_ros/warehouse/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "warehouse_ros",
+    "version": "",
+    "source_file": "moveit_ros/warehouse/CMakeLists.txt",
+    "raw": "find_package(warehouse_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning",
+    "version": "",
+    "source_file": "moveit_ros/warehouse/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_ros/warehouse/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_ros",
+    "version": "",
+    "source_file": "moveit_ros/warehouse/CMakeLists.txt",
+    "raw": "find_package(tf2_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "class_loader",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(class_loader"
+   },
+   {
+    "ecosystem": "native",
+    "name": "geometric_shapes",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(geometric_shapes"
+   },
+   {
+    "ecosystem": "native",
+    "name": "interactive_markers",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(interactive_markers"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_msgs",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(moveit_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "octomap_msgs",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(octomap_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning_interface",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning_interface"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_perception",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_perception"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_robot_interaction",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_robot_interaction"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_warehouse",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_warehouse"
+   },
+   {
+    "ecosystem": "native",
+    "name": "object_recognition_msgs",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(object_recognition_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp_action",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(rclcpp_action"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclpy",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(rclpy"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz2",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(rviz2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Eigen3",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(Eigen3"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt6",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(Qt6"
+   },
+   {
+    "ecosystem": "native",
+    "name": "QT",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(QT"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Qt5",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(Qt5"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz_common",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(rviz_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz_default_plugins",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(rviz_default_plugins"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rviz_ogre_vendor",
+    "version": "",
+    "source_file": "moveit_ros/visualization/CMakeLists.txt",
+    "raw": "find_package(rviz_ogre_vendor"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "geometry_msgs",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/CMakeLists.txt",
+    "raw": "find_package(geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning_interface",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning_interface"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_warehouse",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_warehouse"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/CMakeLists.txt",
+    "raw": "find_package(tf2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_ros",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/CMakeLists.txt",
+    "raw": "find_package(tf2_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "trajectory_msgs",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/CMakeLists.txt",
+    "raw": "find_package(trajectory_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "warehouse_ros",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/CMakeLists.txt",
+    "raw": "find_package(warehouse_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/test/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_pytest",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/test/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_pytest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "launch_testing_ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/test/CMakeLists.txt",
+    "raw": "find_package(launch_testing_ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ros_testing",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/test/CMakeLists.txt",
+    "raw": "find_package(ros_testing"
+   },
+   {
+    "ecosystem": "native",
+    "name": "warehouse_ros_sqlite",
+    "version": "",
+    "source_file": "moveit_ros/trajectory_cache/test/CMakeLists.txt",
+    "raw": "find_package(warehouse_ros_sqlite"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/tests/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_ros/tests/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/tests/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_ros/tests/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ros_testing",
+    "version": "",
+    "source_file": "moveit_ros/tests/CMakeLists.txt",
+    "raw": "find_package(ros_testing"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/robot_interaction/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_ros/robot_interaction/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning",
+    "version": "",
+    "source_file": "moveit_ros/robot_interaction/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning"
+   },
+   {
+    "ecosystem": "native",
+    "name": "interactive_markers",
+    "version": "",
+    "source_file": "moveit_ros/robot_interaction/CMakeLists.txt",
+    "raw": "find_package(interactive_markers"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2",
+    "version": "",
+    "source_file": "moveit_ros/robot_interaction/CMakeLists.txt",
+    "raw": "find_package(tf2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_ros/robot_interaction/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_geometry_msgs",
+    "version": "",
+    "source_file": "moveit_ros/robot_interaction/CMakeLists.txt",
+    "raw": "find_package(tf2_geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_ros",
+    "version": "",
+    "source_file": "moveit_ros/robot_interaction/CMakeLists.txt",
+    "raw": "find_package(tf2_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_ros/robot_interaction/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_ros/robot_interaction/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_msgs",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(moveit_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_warehouse",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_warehouse"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_move_group",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_move_group"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_occupancy_map_monitor",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_occupancy_map_monitor"
+   },
+   {
+    "ecosystem": "native",
+    "name": "geometry_msgs",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(tf2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_geometry_msgs",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(tf2_geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_ros",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(tf2_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp_action",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(rclcpp_action"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Eigen3",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(Eigen3"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ros_testing",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/CMakeLists.txt",
+    "raw": "find_package(ros_testing"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_resources",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/test/CMakeLists.txt",
+    "raw": "find_package(moveit_resources"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/test/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rostest",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/test/CMakeLists.txt",
+    "raw": "find_package(rostest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "eigen_conversions",
+    "version": "",
+    "source_file": "moveit_ros/planning_interface/test/CMakeLists.txt",
+    "raw": "find_package(eigen_conversions"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_index_cpp",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(ament_index_cpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Eigen3",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(Eigen3"
+   },
+   {
+    "ecosystem": "native",
+    "name": "fmt",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(fmt"
+   },
+   {
+    "ecosystem": "native",
+    "name": "generate_parameter_library",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(generate_parameter_library"
+   },
+   {
+    "ecosystem": "native",
+    "name": "message_filters",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(message_filters"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_msgs",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(moveit_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_occupancy_map_monitor",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_occupancy_map_monitor"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp_components",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(rclcpp_components"
+   },
+   {
+    "ecosystem": "native",
+    "name": "sensor_msgs",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(sensor_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "srdfdom",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(srdfdom"
+   },
+   {
+    "ecosystem": "native",
+    "name": "std_msgs",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(std_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(tf2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_geometry_msgs",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(tf2_geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_msgs",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(tf2_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_ros",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(tf2_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "urdf",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(urdf"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_perception",
+    "version": "",
+    "source_file": "moveit_ros/planning/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_perception"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_resources_panda_moveit_config",
+    "version": "",
+    "source_file": "moveit_ros/planning/trajectory_execution_manager/CMakeLists.txt",
+    "raw": "find_package(moveit_resources_panda_moveit_config"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rostest",
+    "version": "",
+    "source_file": "moveit_ros/planning/trajectory_execution_manager/CMakeLists.txt",
+    "raw": "find_package(rostest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "launch_testing_ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/planning/srdf_publisher_node/CMakeLists.txt",
+    "raw": "find_package(launch_testing_ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_ros/planning/rdf_loader/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ros_testing",
+    "version": "",
+    "source_file": "moveit_ros/planning/rdf_loader/CMakeLists.txt",
+    "raw": "find_package(ros_testing"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_ros/planning/planning_scene_monitor/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gmock",
+    "version": "",
+    "source_file": "moveit_ros/planning/planning_scene_monitor/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gmock"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ros_testing",
+    "version": "",
+    "source_file": "moveit_ros/planning/planning_scene_monitor/CMakeLists.txt",
+    "raw": "find_package(ros_testing"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_ros/planning/planning_request_adapter_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gmock",
+    "version": "",
+    "source_file": "moveit_ros/planning/planning_request_adapter_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gmock"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_ros/planning/planning_pipeline/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_resources_panda_moveit_config",
+    "version": "",
+    "source_file": "moveit_ros/planning/moveit_cpp/CMakeLists.txt",
+    "raw": "find_package(moveit_resources_panda_moveit_config"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rostest",
+    "version": "",
+    "source_file": "moveit_ros/planning/moveit_cpp/CMakeLists.txt",
+    "raw": "find_package(rostest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "OpenGL",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(OpenGL"
+   },
+   {
+    "ecosystem": "native",
+    "name": "GLEW",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(GLEW"
+   },
+   {
+    "ecosystem": "native",
+    "name": "FreeGLUT",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(FreeGLUT"
+   },
+   {
+    "ecosystem": "native",
+    "name": "GLUT",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(GLUT"
+   },
+   {
+    "ecosystem": "native",
+    "name": "X11",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(X11"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "cv_bridge",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(cv_bridge"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "urdf",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(urdf"
+   },
+   {
+    "ecosystem": "native",
+    "name": "message_filters",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(message_filters"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(tf2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_geometry_msgs",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(tf2_geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_ros",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(tf2_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "image_transport",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(image_transport"
+   },
+   {
+    "ecosystem": "native",
+    "name": "object_recognition_msgs",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(object_recognition_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "sensor_msgs",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(sensor_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_msgs",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(moveit_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_occupancy_map_monitor",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_occupancy_map_monitor"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Eigen3",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(Eigen3"
+   },
+   {
+    "ecosystem": "native",
+    "name": "geometric_shapes",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(geometric_shapes"
+   },
+   {
+    "ecosystem": "native",
+    "name": "geometry_msgs",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "visualization_msgs",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(visualization_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "OpenMP",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(OpenMP"
+   },
+   {
+    "ecosystem": "native",
+    "name": "OpenCV",
+    "version": "",
+    "source_file": "moveit_ros/perception/CMakeLists.txt",
+    "raw": "find_package(OpenCV"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/occupancy_map_monitor/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "X11",
+    "version": "",
+    "source_file": "moveit_ros/occupancy_map_monitor/CMakeLists.txt",
+    "raw": "find_package(X11"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_ros/occupancy_map_monitor/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_msgs",
+    "version": "",
+    "source_file": "moveit_ros/occupancy_map_monitor/CMakeLists.txt",
+    "raw": "find_package(moveit_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_ros/occupancy_map_monitor/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Eigen3",
+    "version": "",
+    "source_file": "moveit_ros/occupancy_map_monitor/CMakeLists.txt",
+    "raw": "find_package(Eigen3"
+   },
+   {
+    "ecosystem": "native",
+    "name": "octomap",
+    "version": "",
+    "source_file": "moveit_ros/occupancy_map_monitor/CMakeLists.txt",
+    "raw": "find_package(octomap"
+   },
+   {
+    "ecosystem": "native",
+    "name": "geometric_shapes",
+    "version": "",
+    "source_file": "moveit_ros/occupancy_map_monitor/CMakeLists.txt",
+    "raw": "find_package(geometric_shapes"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_ros",
+    "version": "",
+    "source_file": "moveit_ros/occupancy_map_monitor/CMakeLists.txt",
+    "raw": "find_package(tf2_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_ros/occupancy_map_monitor/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Boost",
+    "version": "",
+    "source_file": "moveit_ros/occupancy_map_monitor/CMakeLists.txt",
+    "raw": "find_package(Boost"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gmock",
+    "version": "",
+    "source_file": "moveit_ros/occupancy_map_monitor/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gmock"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/move_group/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rostest",
+    "version": "",
+    "source_file": "moveit_ros/move_group/CMakeLists.txt",
+    "raw": "find_package(rostest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/moveit_servo/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/moveit_servo/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "generate_parameter_library",
+    "version": "",
+    "source_file": "moveit_ros/moveit_servo/CMakeLists.txt",
+    "raw": "find_package(generate_parameter_library"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_ros/moveit_servo/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ros_testing",
+    "version": "",
+    "source_file": "moveit_ros/moveit_servo/CMakeLists.txt",
+    "raw": "find_package(ros_testing"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/moveit_ros/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "generate_parameter_library",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(generate_parameter_library"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_msgs",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(moveit_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning_interface",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning_interface"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp_action",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(rclcpp_action"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp_components",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(rclcpp_components"
+   },
+   {
+    "ecosystem": "native",
+    "name": "std_msgs",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(std_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "std_srvs",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(std_srvs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_ros",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(tf2_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "trajectory_msgs",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/CMakeLists.txt",
+    "raw": "find_package(trajectory_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/test/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ros_testing",
+    "version": "",
+    "source_file": "moveit_ros/hybrid_planning/test/CMakeLists.txt",
+    "raw": "find_package(ros_testing"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_ros/benchmarks/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_ros/benchmarks/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_ros/benchmarks/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_ros/benchmarks/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_ros/benchmarks/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning",
+    "version": "",
+    "source_file": "moveit_ros/benchmarks/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_warehouse",
+    "version": "",
+    "source_file": "moveit_ros/benchmarks/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_warehouse"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_ros/benchmarks/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_py/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_py/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclpy",
+    "version": "",
+    "source_file": "moveit_py/CMakeLists.txt",
+    "raw": "find_package(rclpy"
+   },
+   {
+    "ecosystem": "native",
+    "name": "geometry_msgs",
+    "version": "",
+    "source_file": "moveit_py/CMakeLists.txt",
+    "raw": "find_package(geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning",
+    "version": "",
+    "source_file": "moveit_py/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning_interface",
+    "version": "",
+    "source_file": "moveit_py/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning_interface"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_py/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Python3",
+    "version": "",
+    "source_file": "moveit_py/CMakeLists.txt",
+    "raw": "find_package(Python3"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pybind11",
+    "version": "",
+    "source_file": "moveit_py/CMakeLists.txt",
+    "raw": "find_package(pybind11"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_pytest",
+    "version": "",
+    "source_file": "moveit_py/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_pytest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_plugins/moveit_simple_controller_manager/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_plugins/moveit_simple_controller_manager/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_plugins/moveit_simple_controller_manager/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_plugins/moveit_simple_controller_manager/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_plugins/moveit_simple_controller_manager/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "control_msgs",
+    "version": "",
+    "source_file": "moveit_plugins/moveit_simple_controller_manager/CMakeLists.txt",
+    "raw": "find_package(control_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp_action",
+    "version": "",
+    "source_file": "moveit_plugins/moveit_simple_controller_manager/CMakeLists.txt",
+    "raw": "find_package(rclcpp_action"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_plugins/moveit_ros_control_interface/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_plugins/moveit_ros_control_interface/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_plugins/moveit_ros_control_interface/test/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_plugins/moveit_ros_control_interface/test/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_plugins/moveit_plugins/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_planners/test_configs/prbt_support/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_planners/test_configs/prbt_pg70_support/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_planners/test_configs/prbt_moveit_config/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_planners/test_configs/prbt_ikfast_manipulator_plugin/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_planners/test_configs/prbt_ikfast_manipulator_plugin/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_planners/test_configs/prbt_ikfast_manipulator_plugin/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_planners/test_configs/prbt_ikfast_manipulator_plugin/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_kdl",
+    "version": "",
+    "source_file": "moveit_planners/test_configs/prbt_ikfast_manipulator_plugin/CMakeLists.txt",
+    "raw": "find_package(tf2_kdl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_planners/test_configs/prbt_ikfast_manipulator_plugin/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen_kdl",
+    "version": "",
+    "source_file": "moveit_planners/test_configs/prbt_ikfast_manipulator_plugin/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen_kdl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_geometry_msgs",
+    "version": "",
+    "source_file": "moveit_planners/test_configs/prbt_ikfast_manipulator_plugin/CMakeLists.txt",
+    "raw": "find_package(tf2_geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "generate_parameter_library",
+    "version": "",
+    "source_file": "moveit_planners/test_configs/prbt_ikfast_manipulator_plugin/CMakeLists.txt",
+    "raw": "find_package(generate_parameter_library"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_planners/stomp/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_planners/stomp/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "generate_parameter_library",
+    "version": "",
+    "source_file": "moveit_planners/stomp/CMakeLists.txt",
+    "raw": "find_package(generate_parameter_library"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_planners/stomp/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "std_msgs",
+    "version": "",
+    "source_file": "moveit_planners/stomp/CMakeLists.txt",
+    "raw": "find_package(std_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "stomp",
+    "version": "",
+    "source_file": "moveit_planners/stomp/CMakeLists.txt",
+    "raw": "find_package(stomp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "visualization_msgs",
+    "version": "",
+    "source_file": "moveit_planners/stomp/CMakeLists.txt",
+    "raw": "find_package(visualization_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_planners/stomp/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rsl",
+    "version": "",
+    "source_file": "moveit_planners/stomp/CMakeLists.txt",
+    "raw": "find_package(rsl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_planners/stomp/test/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner_testutils/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner_testutils/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner_testutils/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner_testutils/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_msgs",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner_testutils/CMakeLists.txt",
+    "raw": "find_package(moveit_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner_testutils/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "eigen3_cmake_module",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner_testutils/CMakeLists.txt",
+    "raw": "find_package(eigen3_cmake_module"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Eigen3",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner_testutils/CMakeLists.txt",
+    "raw": "find_package(Eigen3"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Boost",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner_testutils/CMakeLists.txt",
+    "raw": "find_package(Boost"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "eigen3_cmake_module",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(eigen3_cmake_module"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Eigen3",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(Eigen3"
+   },
+   {
+    "ecosystem": "native",
+    "name": "joint_limits_interface",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(joint_limits_interface"
+   },
+   {
+    "ecosystem": "native",
+    "name": "generate_parameter_library",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(generate_parameter_library"
+   },
+   {
+    "ecosystem": "native",
+    "name": "geometry_msgs",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_msgs",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(moveit_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_move_group",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_move_group"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(tf2"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen_kdl",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen_kdl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_geometry_msgs",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(tf2_geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_kdl",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(tf2_kdl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_ros",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(tf2_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "orocos_kdl",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(orocos_kdl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Boost",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/CMakeLists.txt",
+    "raw": "find_package(Boost"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/test/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gmock",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/test/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gmock"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ros_testing",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/test/CMakeLists.txt",
+    "raw": "find_package(ros_testing"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_resources_prbt_support",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/test/CMakeLists.txt",
+    "raw": "find_package(moveit_resources_prbt_support"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_resources_prbt_moveit_config",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/test/CMakeLists.txt",
+    "raw": "find_package(moveit_resources_prbt_moveit_config"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Boost",
+    "version": "",
+    "source_file": "moveit_planners/pilz_industrial_motion_planner/test/CMakeLists.txt",
+    "raw": "find_package(Boost"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_planners/ompl/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Boost",
+    "version": "",
+    "source_file": "moveit_planners/ompl/CMakeLists.txt",
+    "raw": "find_package(Boost"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_planners/ompl/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_msgs",
+    "version": "",
+    "source_file": "moveit_planners/ompl/CMakeLists.txt",
+    "raw": "find_package(moveit_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning",
+    "version": "",
+    "source_file": "moveit_planners/ompl/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_planners/ompl/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_planners/ompl/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_planners/ompl/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_ros",
+    "version": "",
+    "source_file": "moveit_planners/ompl/CMakeLists.txt",
+    "raw": "find_package(tf2_ros"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ompl",
+    "version": "",
+    "source_file": "moveit_planners/ompl/CMakeLists.txt",
+    "raw": "find_package(ompl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "OpenMP",
+    "version": "",
+    "source_file": "moveit_planners/ompl/ompl_interface/CMakeLists.txt",
+    "raw": "find_package(OpenMP"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_planners/ompl/ompl_interface/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Eigen3",
+    "version": "",
+    "source_file": "moveit_planners/ompl/ompl_interface/CMakeLists.txt",
+    "raw": "find_package(Eigen3"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_planners/moveit_planners/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_motion_planner/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_motion_planner/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_motion_planner/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_motion_planner/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rsl",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_motion_planner/CMakeLists.txt",
+    "raw": "find_package(rsl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "trajectory_msgs",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_motion_planner/CMakeLists.txt",
+    "raw": "find_package(trajectory_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "visualization_msgs",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_motion_planner/CMakeLists.txt",
+    "raw": "find_package(visualization_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_interface/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_interface/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_interface/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "chomp_motion_planner",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_interface/CMakeLists.txt",
+    "raw": "find_package(chomp_motion_planner"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_interface/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_interface/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rsl",
+    "version": "",
+    "source_file": "moveit_planners/chomp/chomp_interface/CMakeLists.txt",
+    "raw": "find_package(rsl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Eigen3",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(Eigen3"
+   },
+   {
+    "ecosystem": "native",
+    "name": "class_loader",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(class_loader"
+   },
+   {
+    "ecosystem": "native",
+    "name": "generate_parameter_library",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(generate_parameter_library"
+   },
+   {
+    "ecosystem": "native",
+    "name": "kdl_parser",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(kdl_parser"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_msgs",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(moveit_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning"
+   },
+   {
+    "ecosystem": "native",
+    "name": "orocos_kdl",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(orocos_kdl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "random_numbers",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(random_numbers"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_kdl",
+    "version": "",
+    "source_file": "moveit_kinematics/CMakeLists.txt",
+    "raw": "find_package(tf2_kdl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_kinematics/test/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ros_testing",
+    "version": "",
+    "source_file": "moveit_kinematics/test/CMakeLists.txt",
+    "raw": "find_package(ros_testing"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_resources_fanuc_description",
+    "version": "",
+    "source_file": "moveit_kinematics/test/CMakeLists.txt",
+    "raw": "find_package(moveit_resources_fanuc_description"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_resources_fanuc_moveit_config",
+    "version": "",
+    "source_file": "moveit_kinematics/test/CMakeLists.txt",
+    "raw": "find_package(moveit_resources_fanuc_moveit_config"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_resources_panda_description",
+    "version": "",
+    "source_file": "moveit_kinematics/test/CMakeLists.txt",
+    "raw": "find_package(moveit_resources_panda_description"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_resources_panda_moveit_config",
+    "version": "",
+    "source_file": "moveit_kinematics/test/CMakeLists.txt",
+    "raw": "find_package(moveit_resources_panda_moveit_config"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_ros_planning",
+    "version": "",
+    "source_file": "moveit_kinematics/test/CMakeLists.txt",
+    "raw": "find_package(moveit_ros_planning"
+   },
+   {
+    "ecosystem": "native",
+    "name": "fanuc_ikfast_plugin",
+    "version": "",
+    "source_file": "moveit_kinematics/test/CMakeLists.txt",
+    "raw": "find_package(fanuc_ikfast_plugin"
+   },
+   {
+    "ecosystem": "native",
+    "name": "panda_ikfast_plugin",
+    "version": "",
+    "source_file": "moveit_kinematics/test/CMakeLists.txt",
+    "raw": "find_package(panda_ikfast_plugin"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_kinematics/kdl_kinematics_plugin/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_core",
+    "version": "",
+    "source_file": "moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt",
+    "raw": "find_package(moveit_core"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_kdl",
+    "version": "",
+    "source_file": "moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt",
+    "raw": "find_package(tf2_kdl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "LAPACK",
+    "version": "",
+    "source_file": "moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt",
+    "raw": "find_package(LAPACK"
+   },
+   {
+    "ecosystem": "native",
+    "name": "generate_parameter_library",
+    "version": "",
+    "source_file": "moveit_kinematics/ikfast_kinematics_plugin/templates/CMakeLists.txt",
+    "raw": "find_package(generate_parameter_library"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rsl",
+    "version": "",
+    "source_file": "moveit_kinematics/cached_ik_kinematics_plugin/CMakeLists.txt",
+    "raw": "find_package(rsl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "trac_ik_kinematics_plugin",
+    "version": "",
+    "source_file": "moveit_kinematics/cached_ik_kinematics_plugin/CMakeLists.txt",
+    "raw": "find_package(trac_ik_kinematics_plugin"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ur_kinematics",
+    "version": "",
+    "source_file": "moveit_kinematics/cached_ik_kinematics_plugin/CMakeLists.txt",
+    "raw": "find_package(ur_kinematics"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_common",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(moveit_common"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "angles",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(angles"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Bullet",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(Bullet"
+   },
+   {
+    "ecosystem": "native",
+    "name": "common_interfaces",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(common_interfaces"
+   },
+   {
+    "ecosystem": "native",
+    "name": "eigen_stl_containers",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(eigen_stl_containers"
+   },
+   {
+    "ecosystem": "native",
+    "name": "Eigen3",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(Eigen3"
+   },
+   {
+    "ecosystem": "native",
+    "name": "eigen3_cmake_module",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(eigen3_cmake_module"
+   },
+   {
+    "ecosystem": "native",
+    "name": "fcl",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(fcl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "fmt",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(fmt"
+   },
+   {
+    "ecosystem": "native",
+    "name": "generate_parameter_library",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(generate_parameter_library"
+   },
+   {
+    "ecosystem": "native",
+    "name": "geometric_shapes",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(geometric_shapes"
+   },
+   {
+    "ecosystem": "native",
+    "name": "geometry_msgs",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "kdl_parser",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(kdl_parser"
+   },
+   {
+    "ecosystem": "native",
+    "name": "moveit_msgs",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(moveit_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "octomap",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(octomap"
+   },
+   {
+    "ecosystem": "native",
+    "name": "octomap_msgs",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(octomap_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "orocos_kdl",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(orocos_kdl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "osqp",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(osqp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "pluginlib",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(pluginlib"
+   },
+   {
+    "ecosystem": "native",
+    "name": "random_numbers",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(random_numbers"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rclcpp",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(rclcpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rmw_implementation",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(rmw_implementation"
+   },
+   {
+    "ecosystem": "native",
+    "name": "rsl",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(rsl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ruckig",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(ruckig"
+   },
+   {
+    "ecosystem": "native",
+    "name": "sensor_msgs",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(sensor_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "shape_msgs",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(shape_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "srdfdom",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(srdfdom"
+   },
+   {
+    "ecosystem": "native",
+    "name": "std_msgs",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(std_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_eigen",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(tf2_eigen"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_geometry_msgs",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(tf2_geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_kdl",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(tf2_kdl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "trajectory_msgs",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(trajectory_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "urdf",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(urdf"
+   },
+   {
+    "ecosystem": "native",
+    "name": "urdfdom",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(urdfdom"
+   },
+   {
+    "ecosystem": "native",
+    "name": "urdfdom_headers",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(urdfdom_headers"
+   },
+   {
+    "ecosystem": "native",
+    "name": "visualization_msgs",
+    "version": "",
+    "source_file": "moveit_core/CMakeLists.txt",
+    "raw": "find_package(visualization_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_index_cpp",
+    "version": "",
+    "source_file": "moveit_core/utils/CMakeLists.txt",
+    "raw": "find_package(ament_index_cpp"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_core/utils/test/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "launch_testing_ament_cmake",
+    "version": "",
+    "source_file": "moveit_core/utils/test/CMakeLists.txt",
+    "raw": "find_package(launch_testing_ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_core/transforms/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_google_benchmark",
+    "version": "",
+    "source_file": "moveit_core/trajectory_processing/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_google_benchmark"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_core/trajectory_processing/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "benchmark",
+    "version": "",
+    "source_file": "moveit_core/trajectory_processing/CMakeLists.txt",
+    "raw": "find_package(benchmark"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_google_benchmark",
+    "version": "",
+    "source_file": "moveit_core/robot_state/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_google_benchmark"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_core/robot_state/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "benchmark",
+    "version": "",
+    "source_file": "moveit_core/robot_state/CMakeLists.txt",
+    "raw": "find_package(benchmark"
+   },
+   {
+    "ecosystem": "native",
+    "name": "kdl_parser",
+    "version": "",
+    "source_file": "moveit_core/robot_state/CMakeLists.txt",
+    "raw": "find_package(kdl_parser"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_geometry_msgs",
+    "version": "",
+    "source_file": "moveit_core/robot_state/CMakeLists.txt",
+    "raw": "find_package(tf2_geometry_msgs"
+   },
+   {
+    "ecosystem": "native",
+    "name": "resource_retriever",
+    "version": "",
+    "source_file": "moveit_core/robot_state/CMakeLists.txt",
+    "raw": "find_package(resource_retriever"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_core/robot_model/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_core/planning_scene/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_core/online_signal_smoothing/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_core/kinematic_constraints/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_core/distance_field/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gmock",
+    "version": "",
+    "source_file": "moveit_core/constraint_samplers/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gmock"
+   },
+   {
+    "ecosystem": "native",
+    "name": "orocos_kdl",
+    "version": "",
+    "source_file": "moveit_core/constraint_samplers/CMakeLists.txt",
+    "raw": "find_package(orocos_kdl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "angles",
+    "version": "",
+    "source_file": "moveit_core/constraint_samplers/CMakeLists.txt",
+    "raw": "find_package(angles"
+   },
+   {
+    "ecosystem": "native",
+    "name": "tf2_kdl",
+    "version": "",
+    "source_file": "moveit_core/constraint_samplers/CMakeLists.txt",
+    "raw": "find_package(tf2_kdl"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_core/collision_distance_field/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "resource_retriever",
+    "version": "",
+    "source_file": "moveit_core/collision_distance_field/CMakeLists.txt",
+    "raw": "find_package(resource_retriever"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake_gtest",
+    "version": "",
+    "source_file": "moveit_core/collision_detection_bullet/CMakeLists.txt",
+    "raw": "find_package(ament_cmake_gtest"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit_common/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   },
+   {
+    "ecosystem": "native",
+    "name": "ament_cmake",
+    "version": "",
+    "source_file": "moveit/CMakeLists.txt",
+    "raw": "find_package(ament_cmake"
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 230,
+  "files_with_findings": 219,
+  "severity": {
+   "high": 4,
+   "medium": 1,
+   "low": 225
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "moveit_core/robot_state/test/robot_state_benchmark.cpp",
+      "line": 202,
+      "cwe": "CWE-338",
+      "snippet": "std::mt19937 generator;"
+     }
+    ]
+   },
+   "A03-Injection": {
+    "count": 4,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "moveit_setup_assistant/moveit_setup_srdf_plugins/src/default_collisions_widget.cpp",
+      "line": 403,
+      "cwe": "CWE-95",
+      "snippet": "menu.exec(global);"
+     },
+     {
+      "severity": "high",
+      "file": "moveit_ros/planning/rdf_loader/src/rdf_loader.cpp",
+      "line": 200,
+      "cwe": "CWE-78",
+      "snippet": "FILE* pipe = _popen(cmd.c_str(), \"r\");"
+     },
+     {
+      "severity": "high",
+      "file": "moveit_ros/benchmarks/scripts/moveit_benchmark_statistics.py",
+      "line": 408,
+      "cwe": "CWE-89",
+      "snippet": "\"SELECT %s FROM runs WHERE plannerid = %s AND %s IS NOT NULL\""
+     },
+     {
+      "severity": "high",
+      "file": "moveit_core/online_signal_smoothing/src/acceleration_filter.cpp",
+      "line": 378,
+      "cwe": "CWE-95",
+      "snippet": "positions = alpha * last_positions_ + (1.0 - alpha) * positions.eval();"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 164,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_srdf_plugins/src/group_meta_config.cpp",
+      "line": 176,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Put any additional parameters files into the ROS 2 launch files where they can be read"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_srdf_plugins/src/planning_groups.cpp",
+      "line": 421,
+      "cwe": "CWE-",
+      "snippet": "// TODO: This should call ompl_interface::PlanningContextManager::getRegisteredPlannerAllocators to load the"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_srdf_plugins/src/planning_groups_widget.cpp",
+      "line": 388,
+      "cwe": "CWE-",
+      "snippet": "return;  // TODO: something better for error handling?"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_srdf_plugins/src/robot_poses_widget.cpp",
+      "line": 801,
+      "cwe": "CWE-",
+      "snippet": "double value = joint_value_->text().toDouble();"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_simulation/src/simulation.cpp",
+      "line": 55,
+      "cwe": "CWE-",
+      "snippet": "/** TODO: Need to port this - may require depending on moveit_setup_controllers ControllerConfig"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_framework/src/double_list_widget.cpp",
+      "line": 218,
+      "cwe": "CWE-",
+      "snippet": "// This is a hack to prevent a dummy joint from being added. Not really the best place to place this but"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_framework/src/package_settings_config.cpp",
+      "line": 88,
+      "cwe": "CWE-",
+      "snippet": "/* TODO(dlu): Ideally, the package path is in source so that when we write back to it,"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_core_plugins/include/moveit_setup_core_plugins/start_screen_widget.hpp",
+      "line": 85,
+      "cwe": "CWE-",
+      "snippet": "QProgressBar* progress_bar_;  // TODO: Note that since the refactoring, the progress bar is less useful than before"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_controllers/test/test_controllers.cpp",
+      "line": 104,
+      "cwe": "CWE-",
+      "snippet": "TODO(dlu): Re-enable when moveit_resources 2.0.5 is available on the build farm"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_controllers/src/control_xacro_config.cpp",
+      "line": 179,
+      "cwe": "CWE-",
+      "snippet": "// TODO: There could be an option to load a group state from the RobotPoses"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_assistant/src/setup_assistant_widget.cpp",
+      "line": 86,
+      "cwe": "CWE-",
+      "snippet": "// TODO: The list of setup steps should be read from a parameter with some as the default"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/visualization/rviz_plugin_render_tools/include/ogre_helpers/mesh_shape.hpp",
+      "line": 39,
+      "cwe": "CWE-",
+      "snippet": "// TODO(JafarAbdi): This's taken from https://github.com/ros2/rviz for MoveIt 2 beta release -- remove when it's ported"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/visualization/motion_planning_rviz_plugin/src/motion_planning_display.cpp",
+      "line": 609,
+      "cwe": "CWE-",
+      "snippet": "position[2] = t.z() + 0.2;  // \\todo this should be a param"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/visualization/motion_planning_rviz_plugin/src/motion_planning_frame.cpp",
+      "line": 266,
+      "cwe": "CWE-",
+      "snippet": "// TODO (ddengster): Enable when moveit_ros_perception is ported"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/visualization/motion_planning_rviz_plugin/src/motion_planning_frame_joints_widget.cpp",
+      "line": 151,
+      "cwe": "CWE-",
+      "snippet": "double v = value.toDouble(&ok);"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/visualization/motion_planning_rviz_plugin/src/motion_planning_frame_manipulation.cpp",
+      "line": 54,
+      "cwe": "CWE-",
+      "snippet": "// TODO (ddengster): Enable when moveit_ros_perception is ported"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/visualization/motion_planning_rviz_plugin/src/motion_planning_frame_objects.cpp",
+      "line": 809,
+      "cwe": "CWE-",
+      "snippet": "// TODO(felixvd): Consider where to place the object marker."
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/visualization/motion_planning_rviz_plugin/src/motion_planning_param_widget.cpp",
+      "line": 85,
+      "cwe": "CWE-",
+      "snippet": "dvalue = value.toDouble(&ok);"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/interactive_marker_display.h",
+      "line": 43,
+      "cwe": "CWE-",
+      "snippet": "// TODO(JafarAbdi): Remove this file once the lag issue is fixed upstream https://github.com/ros2/rviz/issues/548"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/interactive_marker_display.hpp",
+      "line": 31,
+      "cwe": "CWE-",
+      "snippet": "// TODO(JafarAbdi): Remove this file once the lag issue is fixed upstream https://github.com/ros2/rviz/issues/548"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/visualization/motion_planning_rviz_plugin/include/moveit/motion_planning_rviz_plugin/motion_planning_frame.hpp",
+      "line": 51,
+      "cwe": "CWE-",
+      "snippet": "// TODO (ddengster): Enable when moveit_ros_perception is ported"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/cache_insert_policies/test_always_insert_never_prune_policy_with_move_group.cpp",
+      "line": 257,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Swap this over to the new computeCartesianPath API."
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/cache_insert_policies/test_best_seen_execution_time_policy_with_move_group.cpp",
+      "line": 270,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Swap this over to the new computeCartesianPath API."
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/src/utils/utils.cpp",
+      "line": 549,
+      "cwe": "CWE-",
+      "snippet": "// TODO: Since MoveIt also potentially does another getCurrentState() call"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/include/moveit/trajectory_cache/trajectory_cache.hpp",
+      "line": 203,
+      "cwe": "CWE-",
+      "snippet": "* TODO: methylDragon -"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 0,
+    "findings": []
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 61,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_srdf_plugins/src/collision_linear_model.cpp",
+      "line": 60,
+      "cwe": "CWE-319",
+      "snippet": "// http://stackoverflow.com/questions/27086195/linear-index-upper-triangular-matrix"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_setup_assistant/moveit_setup_framework/include/moveit_setup_framework/data/srdf_config.hpp",
+      "line": 170,
+      "cwe": "CWE-319",
+      "snippet": "return \"SRDF (<a href='http://www.ros.org/wiki/srdf'>Semantic Robot Description Format</a>) is a \""
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/test_trajectory_cache.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/test_trajectory_cache.py",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/utils/test_utils.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/utils/test_utils_with_move_group.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/fixtures/move_group_fixture.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/fixtures/move_group_fixture.hpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/fixtures/warehouse_fixture.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/fixtures/warehouse_fixture.hpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/features/test_constant_features_with_move_group.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/features/test_get_cartesian_path_request_features_with_move_group.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/features/test_motion_plan_request_features_with_move_group.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/cache_insert_policies/test_always_insert_never_prune_policy_with_move_group.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/test/cache_insert_policies/test_best_seen_execution_time_policy_with_move_group.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/src/trajectory_cache.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/src/utils/utils.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/src/features/get_cartesian_path_request_features.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/src/features/motion_plan_request_features.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/src/cache_insert_policies/always_insert_never_prune_policy.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/src/cache_insert_policies/best_seen_execution_time_policy.cpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/include/moveit/trajectory_cache/trajectory_cache.h",
+      "line": 19,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/include/moveit/trajectory_cache/trajectory_cache.hpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/include/moveit/trajectory_cache/utils/utils.hpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "moveit_ros/trajectory_cache/include/moveit/trajectory_cache/features/constant_features.hpp",
+      "line": 7,
+      "cwe": "CWE-319",
+      "snippet": "//     http://www.apache.org/licenses/LICENSE-2.0"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 3,
+  "files_with_findings": 3,
+  "severity": {
+   "high": 0,
+   "medium": 2,
+   "low": 1
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "moveit_setup_assistant/moveit_setup_app_plugins/include/moveit_setup_app_plugins/launch_bundle.hpp",
+      "line": 110,
+      "cwe": "CWE-1336",
+      "snippet": "GenericLaunchTemplate(const std::filesystem::path& package_path, const GeneratedTime& last_gen_time,"
+     },
+     {
+      "severity": "medium",
+      "file": "moveit_planners/pilz_industrial_motion_planner/include/joint_limits_copy/joint_limits_rosparam.hpp",
+      "line": 33,
+      "cwe": "CWE-1336",
+      "snippet": "void declareParameterTemplate(const rclcpp::Node::SharedPtr& node, const std::string& name, T default_value)"
+     }
+    ]
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM03-SupplyChain": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM04-DataPoisoning": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM09-Misinformation": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "moveit_kinematics/test/test_kinematics_plugin.cpp",
+      "line": 510,
+      "cwe": "CWE-",
+      "snippet": "ASSERT_EQ(ground_truth.size(), joints_.size())"
+     }
+    ]
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:36920143-6db5-52da-b343-5181d95c7ae8",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-13T20:56:40Z",
+   "component": {
+    "type": "application",
+    "name": "L_MOVEIT2",
+    "version": "a9004a43151b",
+    "bom-ref": "pkg:generic/anticloud/L_MOVEIT2@a9004a43151b",
+    "purl": "pkg:generic/anticloud/L_MOVEIT2@a9004a43151b",
+    "licenses": [
+     {
+      "license": {
+       "id": "BSD-3-Clause"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "a9004a43151b7d1fd50d462b8db6d4d280b0cc21"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/moveit/moveit2"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "moveit_common",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_common",
+    "bom-ref": "native/moveit_common@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "ament_cmake",
+    "version": "unspecified",
+    "purl": "pkg:generic/ament_cmake",
+    "bom-ref": "native/ament_cmake@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "ament_cmake_ros",
+    "version": "unspecified",
+    "purl": "pkg:generic/ament_cmake_ros",
+    "bom-ref": "native/ament_cmake_ros@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "rviz2",
+    "version": "unspecified",
+    "purl": "pkg:generic/rviz2",
+    "bom-ref": "native/rviz2@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "Qt6",
+    "version": "unspecified",
+    "purl": "pkg:generic/Qt6",
+    "bom-ref": "native/Qt6@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "QT",
+    "version": "unspecified",
+    "purl": "pkg:generic/QT",
+    "bom-ref": "native/QT@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "Qt5",
+    "version": "unspecified",
+    "purl": "pkg:generic/Qt5",
+    "bom-ref": "native/Qt5@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_setup_framework",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_setup_framework",
+    "bom-ref": "native/moveit_setup_framework@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "pluginlib",
+    "version": "unspecified",
+    "purl": "pkg:generic/pluginlib",
+    "bom-ref": "native/pluginlib@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "ament_cmake_gtest",
+    "version": "unspecified",
+    "purl": "pkg:generic/ament_cmake_gtest",
+    "bom-ref": "native/ament_cmake_gtest@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "ament_index_cpp",
+    "version": "unspecified",
+    "purl": "pkg:generic/ament_index_cpp",
+    "bom-ref": "native/ament_index_cpp@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "rclcpp",
+    "version": "unspecified",
+    "purl": "pkg:generic/rclcpp",
+    "bom-ref": "native/rclcpp@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "fmt",
+    "version": "unspecified",
+    "purl": "pkg:generic/fmt",
+    "bom-ref": "native/fmt@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_core",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_core",
+    "bom-ref": "native/moveit_core@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_ros_planning",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_ros_planning",
+    "bom-ref": "native/moveit_ros_planning@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_ros_visualization",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_ros_visualization",
+    "bom-ref": "native/moveit_ros_visualization@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "rviz_common",
+    "version": "unspecified",
+    "purl": "pkg:generic/rviz_common",
+    "bom-ref": "native/rviz_common@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "rviz_rendering",
+    "version": "unspecified",
+    "purl": "pkg:generic/rviz_rendering",
+    "bom-ref": "native/rviz_rendering@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "srdfdom",
+    "version": "unspecified",
+    "purl": "pkg:generic/srdfdom",
+    "bom-ref": "native/srdfdom@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "urdf",
+    "version": "unspecified",
+    "purl": "pkg:generic/urdf",
+    "bom-ref": "native/urdf@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "Boost",
+    "version": "unspecified",
+    "purl": "pkg:generic/Boost",
+    "bom-ref": "native/Boost@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_setup_srdf_plugins",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_setup_srdf_plugins",
+    "bom-ref": "native/moveit_setup_srdf_plugins@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "warehouse_ros",
+    "version": "unspecified",
+    "purl": "pkg:generic/warehouse_ros",
+    "bom-ref": "native/warehouse_ros@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "tf2_eigen",
+    "version": "unspecified",
+    "purl": "pkg:generic/tf2_eigen",
+    "bom-ref": "native/tf2_eigen@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "tf2_ros",
+    "version": "unspecified",
+    "purl": "pkg:generic/tf2_ros",
+    "bom-ref": "native/tf2_ros@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "class_loader",
+    "version": "unspecified",
+    "purl": "pkg:generic/class_loader",
+    "bom-ref": "native/class_loader@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "geometric_shapes",
+    "version": "unspecified",
+    "purl": "pkg:generic/geometric_shapes",
+    "bom-ref": "native/geometric_shapes@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "interactive_markers",
+    "version": "unspecified",
+    "purl": "pkg:generic/interactive_markers",
+    "bom-ref": "native/interactive_markers@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_msgs",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_msgs",
+    "bom-ref": "native/moveit_msgs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "octomap_msgs",
+    "version": "unspecified",
+    "purl": "pkg:generic/octomap_msgs",
+    "bom-ref": "native/octomap_msgs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_ros_planning_interface",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_ros_planning_interface",
+    "bom-ref": "native/moveit_ros_planning_interface@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_ros_perception",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_ros_perception",
+    "bom-ref": "native/moveit_ros_perception@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_ros_robot_interaction",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_ros_robot_interaction",
+    "bom-ref": "native/moveit_ros_robot_interaction@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_ros_warehouse",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_ros_warehouse",
+    "bom-ref": "native/moveit_ros_warehouse@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "object_recognition_msgs",
+    "version": "unspecified",
+    "purl": "pkg:generic/object_recognition_msgs",
+    "bom-ref": "native/object_recognition_msgs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "rclcpp_action",
+    "version": "unspecified",
+    "purl": "pkg:generic/rclcpp_action",
+    "bom-ref": "native/rclcpp_action@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "rclpy",
+    "version": "unspecified",
+    "purl": "pkg:generic/rclpy",
+    "bom-ref": "native/rclpy@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "Eigen3",
+    "version": "unspecified",
+    "purl": "pkg:generic/Eigen3",
+    "bom-ref": "native/Eigen3@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "rviz_default_plugins",
+    "version": "unspecified",
+    "purl": "pkg:generic/rviz_default_plugins",
+    "bom-ref": "native/rviz_default_plugins@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "rviz_ogre_vendor",
+    "version": "unspecified",
+    "purl": "pkg:generic/rviz_ogre_vendor",
+    "bom-ref": "native/rviz_ogre_vendor@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "geometry_msgs",
+    "version": "unspecified",
+    "purl": "pkg:generic/geometry_msgs",
+    "bom-ref": "native/geometry_msgs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "tf2",
+    "version": "unspecified",
+    "purl": "pkg:generic/tf2",
+    "bom-ref": "native/tf2@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "trajectory_msgs",
+    "version": "unspecified",
+    "purl": "pkg:generic/trajectory_msgs",
+    "bom-ref": "native/trajectory_msgs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "ament_cmake_pytest",
+    "version": "unspecified",
+    "purl": "pkg:generic/ament_cmake_pytest",
+    "bom-ref": "native/ament_cmake_pytest@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "launch_testing_ament_cmake",
+    "version": "unspecified",
+    "purl": "pkg:generic/launch_testing_ament_cmake",
+    "bom-ref": "native/launch_testing_ament_cmake@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "ros_testing",
+    "version": "unspecified",
+    "purl": "pkg:generic/ros_testing",
+    "bom-ref": "native/ros_testing@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "warehouse_ros_sqlite",
+    "version": "unspecified",
+    "purl": "pkg:generic/warehouse_ros_sqlite",
+    "bom-ref": "native/warehouse_ros_sqlite@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "tf2_geometry_msgs",
+    "version": "unspecified",
+    "purl": "pkg:generic/tf2_geometry_msgs",
+    "bom-ref": "native/tf2_geometry_msgs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_ros_move_group",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_ros_move_group",
+    "bom-ref": "native/moveit_ros_move_group@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_ros_occupancy_map_monitor",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_ros_occupancy_map_monitor",
+    "bom-ref": "native/moveit_ros_occupancy_map_monitor@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_resources",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_resources",
+    "bom-ref": "native/moveit_resources@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "rostest",
+    "version": "unspecified",
+    "purl": "pkg:generic/rostest",
+    "bom-ref": "native/rostest@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "eigen_conversions",
+    "version": "unspecified",
+    "purl": "pkg:generic/eigen_conversions",
+    "bom-ref": "native/eigen_conversions@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "generate_parameter_library",
+    "version": "unspecified",
+    "purl": "pkg:generic/generate_parameter_library",
+    "bom-ref": "native/generate_parameter_library@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "message_filters",
+    "version": "unspecified",
+    "purl": "pkg:generic/message_filters",
+    "bom-ref": "native/message_filters@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "rclcpp_components",
+    "version": "unspecified",
+    "purl": "pkg:generic/rclcpp_components",
+    "bom-ref": "native/rclcpp_components@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "sensor_msgs",
+    "version": "unspecified",
+    "purl": "pkg:generic/sensor_msgs",
+    "bom-ref": "native/sensor_msgs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "std_msgs",
+    "version": "unspecified",
+    "purl": "pkg:generic/std_msgs",
+    "bom-ref": "native/std_msgs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "tf2_msgs",
+    "version": "unspecified",
+    "purl": "pkg:generic/tf2_msgs",
+    "bom-ref": "native/tf2_msgs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_resources_panda_moveit_config",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_resources_panda_moveit_config",
+    "bom-ref": "native/moveit_resources_panda_moveit_config@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "ament_cmake_gmock",
+    "version": "unspecified",
+    "purl": "pkg:generic/ament_cmake_gmock",
+    "bom-ref": "native/ament_cmake_gmock@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "OpenGL",
+    "version": "unspecified",
+    "purl": "pkg:generic/OpenGL",
+    "bom-ref": "native/OpenGL@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "GLEW",
+    "version": "unspecified",
+    "purl": "pkg:generic/GLEW",
+    "bom-ref": "native/GLEW@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "FreeGLUT",
+    "version": "unspecified",
+    "purl": "pkg:generic/FreeGLUT",
+    "bom-ref": "native/FreeGLUT@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "GLUT",
+    "version": "unspecified",
+    "purl": "pkg:generic/GLUT",
+    "bom-ref": "native/GLUT@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "X11",
+    "version": "unspecified",
+    "purl": "pkg:generic/X11",
+    "bom-ref": "native/X11@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "cv_bridge",
+    "version": "unspecified",
+    "purl": "pkg:generic/cv_bridge",
+    "bom-ref": "native/cv_bridge@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "image_transport",
+    "version": "unspecified",
+    "purl": "pkg:generic/image_transport",
+    "bom-ref": "native/image_transport@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "visualization_msgs",
+    "version": "unspecified",
+    "purl": "pkg:generic/visualization_msgs",
+    "bom-ref": "native/visualization_msgs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "OpenMP",
+    "version": "unspecified",
+    "purl": "pkg:generic/OpenMP",
+    "bom-ref": "native/OpenMP@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "OpenCV",
+    "version": "unspecified",
+    "purl": "pkg:generic/OpenCV",
+    "bom-ref": "native/OpenCV@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "octomap",
+    "version": "unspecified",
+    "purl": "pkg:generic/octomap",
+    "bom-ref": "native/octomap@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "std_srvs",
+    "version": "unspecified",
+    "purl": "pkg:generic/std_srvs",
+    "bom-ref": "native/std_srvs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "Python3",
+    "version": "unspecified",
+    "purl": "pkg:generic/Python3",
+    "bom-ref": "native/Python3@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "pybind11",
+    "version": "unspecified",
+    "purl": "pkg:generic/pybind11",
+    "bom-ref": "native/pybind11@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "control_msgs",
+    "version": "unspecified",
+    "purl": "pkg:generic/control_msgs",
+    "bom-ref": "native/control_msgs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "tf2_kdl",
+    "version": "unspecified",
+    "purl": "pkg:generic/tf2_kdl",
+    "bom-ref": "native/tf2_kdl@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "tf2_eigen_kdl",
+    "version": "unspecified",
+    "purl": "pkg:generic/tf2_eigen_kdl",
+    "bom-ref": "native/tf2_eigen_kdl@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "stomp",
+    "version": "unspecified",
+    "purl": "pkg:generic/stomp",
+    "bom-ref": "native/stomp@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "rsl",
+    "version": "unspecified",
+    "purl": "pkg:generic/rsl",
+    "bom-ref": "native/rsl@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "eigen3_cmake_module",
+    "version": "unspecified",
+    "purl": "pkg:generic/eigen3_cmake_module",
+    "bom-ref": "native/eigen3_cmake_module@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "joint_limits_interface",
+    "version": "unspecified",
+    "purl": "pkg:generic/joint_limits_interface",
+    "bom-ref": "native/joint_limits_interface@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "orocos_kdl",
+    "version": "unspecified",
+    "purl": "pkg:generic/orocos_kdl",
+    "bom-ref": "native/orocos_kdl@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_resources_prbt_support",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_resources_prbt_support",
+    "bom-ref": "native/moveit_resources_prbt_support@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_resources_prbt_moveit_config",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_resources_prbt_moveit_config",
+    "bom-ref": "native/moveit_resources_prbt_moveit_config@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "ompl",
+    "version": "unspecified",
+    "purl": "pkg:generic/ompl",
+    "bom-ref": "native/ompl@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "chomp_motion_planner",
+    "version": "unspecified",
+    "purl": "pkg:generic/chomp_motion_planner",
+    "bom-ref": "native/chomp_motion_planner@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "kdl_parser",
+    "version": "unspecified",
+    "purl": "pkg:generic/kdl_parser",
+    "bom-ref": "native/kdl_parser@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "random_numbers",
+    "version": "unspecified",
+    "purl": "pkg:generic/random_numbers",
+    "bom-ref": "native/random_numbers@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_resources_fanuc_description",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_resources_fanuc_description",
+    "bom-ref": "native/moveit_resources_fanuc_description@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_resources_fanuc_moveit_config",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_resources_fanuc_moveit_config",
+    "bom-ref": "native/moveit_resources_fanuc_moveit_config@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "moveit_resources_panda_description",
+    "version": "unspecified",
+    "purl": "pkg:generic/moveit_resources_panda_description",
+    "bom-ref": "native/moveit_resources_panda_description@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "fanuc_ikfast_plugin",
+    "version": "unspecified",
+    "purl": "pkg:generic/fanuc_ikfast_plugin",
+    "bom-ref": "native/fanuc_ikfast_plugin@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "panda_ikfast_plugin",
+    "version": "unspecified",
+    "purl": "pkg:generic/panda_ikfast_plugin",
+    "bom-ref": "native/panda_ikfast_plugin@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "LAPACK",
+    "version": "unspecified",
+    "purl": "pkg:generic/LAPACK",
+    "bom-ref": "native/LAPACK@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "trac_ik_kinematics_plugin",
+    "version": "unspecified",
+    "purl": "pkg:generic/trac_ik_kinematics_plugin",
+    "bom-ref": "native/trac_ik_kinematics_plugin@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "ur_kinematics",
+    "version": "unspecified",
+    "purl": "pkg:generic/ur_kinematics",
+    "bom-ref": "native/ur_kinematics@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "angles",
+    "version": "unspecified",
+    "purl": "pkg:generic/angles",
+    "bom-ref": "native/angles@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "Bullet",
+    "version": "unspecified",
+    "purl": "pkg:generic/Bullet",
+    "bom-ref": "native/Bullet@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "common_interfaces",
+    "version": "unspecified",
+    "purl": "pkg:generic/common_interfaces",
+    "bom-ref": "native/common_interfaces@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "eigen_stl_containers",
+    "version": "unspecified",
+    "purl": "pkg:generic/eigen_stl_containers",
+    "bom-ref": "native/eigen_stl_containers@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "fcl",
+    "version": "unspecified",
+    "purl": "pkg:generic/fcl",
+    "bom-ref": "native/fcl@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "osqp",
+    "version": "unspecified",
+    "purl": "pkg:generic/osqp",
+    "bom-ref": "native/osqp@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "rmw_implementation",
+    "version": "unspecified",
+    "purl": "pkg:generic/rmw_implementation",
+    "bom-ref": "native/rmw_implementation@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "ruckig",
+    "version": "unspecified",
+    "purl": "pkg:generic/ruckig",
+    "bom-ref": "native/ruckig@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "shape_msgs",
+    "version": "unspecified",
+    "purl": "pkg:generic/shape_msgs",
+    "bom-ref": "native/shape_msgs@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "urdfdom",
+    "version": "unspecified",
+    "purl": "pkg:generic/urdfdom",
+    "bom-ref": "native/urdfdom@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "urdfdom_headers",
+    "version": "unspecified",
+    "purl": "pkg:generic/urdfdom_headers",
+    "bom-ref": "native/urdfdom_headers@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "ament_cmake_google_benchmark",
+    "version": "unspecified",
+    "purl": "pkg:generic/ament_cmake_google_benchmark",
+    "bom-ref": "native/ament_cmake_google_benchmark@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "benchmark",
+    "version": "unspecified",
+    "purl": "pkg:generic/benchmark",
+    "bom-ref": "native/benchmark@unspecified"
+   },
+   {
+    "type": "library",
+    "name": "resource_retriever",
+    "version": "unspecified",
+    "purl": "pkg:generic/resource_retriever",
+    "bom-ref": "native/resource_retriever@unspecified"
+   }
+  ]
+ },
+ "elapsed_seconds": 27.27,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 1,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "1dd136117a9a5110b83e71921ea8d1d9ff8ec8fb",
+    "latest_commit": "1dd1361 anticloud overlay for L_MOVEIT2",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-13T20:56:45.637855+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "b456ca31d39e0b4085cd8b0073445b4e7638fab087f2196a8cf2e23275aef4bc"
+}

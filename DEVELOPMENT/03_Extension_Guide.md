@@ -1,0 +1,5 @@
+# Extension Guide — L_MOVEIT2
+
+To extend L_MOVEIT2 with AIOSS ledger:
+1. Import `aioss_integration.py`
+2. Call `log_call()` around key inference calls

@@ -1,0 +1,816 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:36920143-6db5-52da-b343-5181d95c7ae8",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:56:40Z",
+    "component": {
+      "type": "application",
+      "name": "L_MOVEIT2",
+      "version": "a9004a43151b",
+      "bom-ref": "pkg:generic/anticloud/L_MOVEIT2@a9004a43151b",
+      "purl": "pkg:generic/anticloud/L_MOVEIT2@a9004a43151b",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "a9004a43151b7d1fd50d462b8db6d4d280b0cc21"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/moveit/moveit2"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "moveit_common",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_common",
+      "bom-ref": "native/moveit_common@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_cmake",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_cmake",
+      "bom-ref": "native/ament_cmake@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_cmake_ros",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_cmake_ros",
+      "bom-ref": "native/ament_cmake_ros@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rviz2",
+      "version": "unspecified",
+      "purl": "pkg:generic/rviz2",
+      "bom-ref": "native/rviz2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Qt6",
+      "version": "unspecified",
+      "purl": "pkg:generic/Qt6",
+      "bom-ref": "native/Qt6@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "QT",
+      "version": "unspecified",
+      "purl": "pkg:generic/QT",
+      "bom-ref": "native/QT@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Qt5",
+      "version": "unspecified",
+      "purl": "pkg:generic/Qt5",
+      "bom-ref": "native/Qt5@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_setup_framework",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_setup_framework",
+      "bom-ref": "native/moveit_setup_framework@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pluginlib",
+      "version": "unspecified",
+      "purl": "pkg:generic/pluginlib",
+      "bom-ref": "native/pluginlib@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_cmake_gtest",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_cmake_gtest",
+      "bom-ref": "native/ament_cmake_gtest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_index_cpp",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_index_cpp",
+      "bom-ref": "native/ament_index_cpp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rclcpp",
+      "version": "unspecified",
+      "purl": "pkg:generic/rclcpp",
+      "bom-ref": "native/rclcpp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "fmt",
+      "version": "unspecified",
+      "purl": "pkg:generic/fmt",
+      "bom-ref": "native/fmt@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_core",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_core",
+      "bom-ref": "native/moveit_core@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_ros_planning",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_ros_planning",
+      "bom-ref": "native/moveit_ros_planning@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_ros_visualization",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_ros_visualization",
+      "bom-ref": "native/moveit_ros_visualization@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rviz_common",
+      "version": "unspecified",
+      "purl": "pkg:generic/rviz_common",
+      "bom-ref": "native/rviz_common@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rviz_rendering",
+      "version": "unspecified",
+      "purl": "pkg:generic/rviz_rendering",
+      "bom-ref": "native/rviz_rendering@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "srdfdom",
+      "version": "unspecified",
+      "purl": "pkg:generic/srdfdom",
+      "bom-ref": "native/srdfdom@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "urdf",
+      "version": "unspecified",
+      "purl": "pkg:generic/urdf",
+      "bom-ref": "native/urdf@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Boost",
+      "version": "unspecified",
+      "purl": "pkg:generic/Boost",
+      "bom-ref": "native/Boost@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_setup_srdf_plugins",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_setup_srdf_plugins",
+      "bom-ref": "native/moveit_setup_srdf_plugins@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "warehouse_ros",
+      "version": "unspecified",
+      "purl": "pkg:generic/warehouse_ros",
+      "bom-ref": "native/warehouse_ros@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tf2_eigen",
+      "version": "unspecified",
+      "purl": "pkg:generic/tf2_eigen",
+      "bom-ref": "native/tf2_eigen@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tf2_ros",
+      "version": "unspecified",
+      "purl": "pkg:generic/tf2_ros",
+      "bom-ref": "native/tf2_ros@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "class_loader",
+      "version": "unspecified",
+      "purl": "pkg:generic/class_loader",
+      "bom-ref": "native/class_loader@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "geometric_shapes",
+      "version": "unspecified",
+      "purl": "pkg:generic/geometric_shapes",
+      "bom-ref": "native/geometric_shapes@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "interactive_markers",
+      "version": "unspecified",
+      "purl": "pkg:generic/interactive_markers",
+      "bom-ref": "native/interactive_markers@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_msgs",
+      "bom-ref": "native/moveit_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "octomap_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/octomap_msgs",
+      "bom-ref": "native/octomap_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_ros_planning_interface",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_ros_planning_interface",
+      "bom-ref": "native/moveit_ros_planning_interface@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_ros_perception",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_ros_perception",
+      "bom-ref": "native/moveit_ros_perception@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_ros_robot_interaction",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_ros_robot_interaction",
+      "bom-ref": "native/moveit_ros_robot_interaction@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_ros_warehouse",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_ros_warehouse",
+      "bom-ref": "native/moveit_ros_warehouse@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "object_recognition_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/object_recognition_msgs",
+      "bom-ref": "native/object_recognition_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rclcpp_action",
+      "version": "unspecified",
+      "purl": "pkg:generic/rclcpp_action",
+      "bom-ref": "native/rclcpp_action@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rclpy",
+      "version": "unspecified",
+      "purl": "pkg:generic/rclpy",
+      "bom-ref": "native/rclpy@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Eigen3",
+      "version": "unspecified",
+      "purl": "pkg:generic/Eigen3",
+      "bom-ref": "native/Eigen3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rviz_default_plugins",
+      "version": "unspecified",
+      "purl": "pkg:generic/rviz_default_plugins",
+      "bom-ref": "native/rviz_default_plugins@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rviz_ogre_vendor",
+      "version": "unspecified",
+      "purl": "pkg:generic/rviz_ogre_vendor",
+      "bom-ref": "native/rviz_ogre_vendor@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "geometry_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/geometry_msgs",
+      "bom-ref": "native/geometry_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tf2",
+      "version": "unspecified",
+      "purl": "pkg:generic/tf2",
+      "bom-ref": "native/tf2@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "trajectory_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/trajectory_msgs",
+      "bom-ref": "native/trajectory_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_cmake_pytest",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_cmake_pytest",
+      "bom-ref": "native/ament_cmake_pytest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "launch_testing_ament_cmake",
+      "version": "unspecified",
+      "purl": "pkg:generic/launch_testing_ament_cmake",
+      "bom-ref": "native/launch_testing_ament_cmake@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ros_testing",
+      "version": "unspecified",
+      "purl": "pkg:generic/ros_testing",
+      "bom-ref": "native/ros_testing@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "warehouse_ros_sqlite",
+      "version": "unspecified",
+      "purl": "pkg:generic/warehouse_ros_sqlite",
+      "bom-ref": "native/warehouse_ros_sqlite@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tf2_geometry_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/tf2_geometry_msgs",
+      "bom-ref": "native/tf2_geometry_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_ros_move_group",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_ros_move_group",
+      "bom-ref": "native/moveit_ros_move_group@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_ros_occupancy_map_monitor",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_ros_occupancy_map_monitor",
+      "bom-ref": "native/moveit_ros_occupancy_map_monitor@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_resources",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_resources",
+      "bom-ref": "native/moveit_resources@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rostest",
+      "version": "unspecified",
+      "purl": "pkg:generic/rostest",
+      "bom-ref": "native/rostest@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "eigen_conversions",
+      "version": "unspecified",
+      "purl": "pkg:generic/eigen_conversions",
+      "bom-ref": "native/eigen_conversions@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "generate_parameter_library",
+      "version": "unspecified",
+      "purl": "pkg:generic/generate_parameter_library",
+      "bom-ref": "native/generate_parameter_library@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "message_filters",
+      "version": "unspecified",
+      "purl": "pkg:generic/message_filters",
+      "bom-ref": "native/message_filters@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rclcpp_components",
+      "version": "unspecified",
+      "purl": "pkg:generic/rclcpp_components",
+      "bom-ref": "native/rclcpp_components@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "sensor_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/sensor_msgs",
+      "bom-ref": "native/sensor_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "std_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/std_msgs",
+      "bom-ref": "native/std_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tf2_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/tf2_msgs",
+      "bom-ref": "native/tf2_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_resources_panda_moveit_config",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_resources_panda_moveit_config",
+      "bom-ref": "native/moveit_resources_panda_moveit_config@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_cmake_gmock",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_cmake_gmock",
+      "bom-ref": "native/ament_cmake_gmock@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenGL",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenGL",
+      "bom-ref": "native/OpenGL@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GLEW",
+      "version": "unspecified",
+      "purl": "pkg:generic/GLEW",
+      "bom-ref": "native/GLEW@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "FreeGLUT",
+      "version": "unspecified",
+      "purl": "pkg:generic/FreeGLUT",
+      "bom-ref": "native/FreeGLUT@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "GLUT",
+      "version": "unspecified",
+      "purl": "pkg:generic/GLUT",
+      "bom-ref": "native/GLUT@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "X11",
+      "version": "unspecified",
+      "purl": "pkg:generic/X11",
+      "bom-ref": "native/X11@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "cv_bridge",
+      "version": "unspecified",
+      "purl": "pkg:generic/cv_bridge",
+      "bom-ref": "native/cv_bridge@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "image_transport",
+      "version": "unspecified",
+      "purl": "pkg:generic/image_transport",
+      "bom-ref": "native/image_transport@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "visualization_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/visualization_msgs",
+      "bom-ref": "native/visualization_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenMP",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenMP",
+      "bom-ref": "native/OpenMP@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "OpenCV",
+      "version": "unspecified",
+      "purl": "pkg:generic/OpenCV",
+      "bom-ref": "native/OpenCV@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "octomap",
+      "version": "unspecified",
+      "purl": "pkg:generic/octomap",
+      "bom-ref": "native/octomap@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "std_srvs",
+      "version": "unspecified",
+      "purl": "pkg:generic/std_srvs",
+      "bom-ref": "native/std_srvs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Python3",
+      "version": "unspecified",
+      "purl": "pkg:generic/Python3",
+      "bom-ref": "native/Python3@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "pybind11",
+      "version": "unspecified",
+      "purl": "pkg:generic/pybind11",
+      "bom-ref": "native/pybind11@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "control_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/control_msgs",
+      "bom-ref": "native/control_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tf2_kdl",
+      "version": "unspecified",
+      "purl": "pkg:generic/tf2_kdl",
+      "bom-ref": "native/tf2_kdl@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "tf2_eigen_kdl",
+      "version": "unspecified",
+      "purl": "pkg:generic/tf2_eigen_kdl",
+      "bom-ref": "native/tf2_eigen_kdl@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "stomp",
+      "version": "unspecified",
+      "purl": "pkg:generic/stomp",
+      "bom-ref": "native/stomp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rsl",
+      "version": "unspecified",
+      "purl": "pkg:generic/rsl",
+      "bom-ref": "native/rsl@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "eigen3_cmake_module",
+      "version": "unspecified",
+      "purl": "pkg:generic/eigen3_cmake_module",
+      "bom-ref": "native/eigen3_cmake_module@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "joint_limits_interface",
+      "version": "unspecified",
+      "purl": "pkg:generic/joint_limits_interface",
+      "bom-ref": "native/joint_limits_interface@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "orocos_kdl",
+      "version": "unspecified",
+      "purl": "pkg:generic/orocos_kdl",
+      "bom-ref": "native/orocos_kdl@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_resources_prbt_support",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_resources_prbt_support",
+      "bom-ref": "native/moveit_resources_prbt_support@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_resources_prbt_moveit_config",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_resources_prbt_moveit_config",
+      "bom-ref": "native/moveit_resources_prbt_moveit_config@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ompl",
+      "version": "unspecified",
+      "purl": "pkg:generic/ompl",
+      "bom-ref": "native/ompl@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "chomp_motion_planner",
+      "version": "unspecified",
+      "purl": "pkg:generic/chomp_motion_planner",
+      "bom-ref": "native/chomp_motion_planner@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "kdl_parser",
+      "version": "unspecified",
+      "purl": "pkg:generic/kdl_parser",
+      "bom-ref": "native/kdl_parser@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "random_numbers",
+      "version": "unspecified",
+      "purl": "pkg:generic/random_numbers",
+      "bom-ref": "native/random_numbers@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_resources_fanuc_description",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_resources_fanuc_description",
+      "bom-ref": "native/moveit_resources_fanuc_description@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_resources_fanuc_moveit_config",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_resources_fanuc_moveit_config",
+      "bom-ref": "native/moveit_resources_fanuc_moveit_config@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "moveit_resources_panda_description",
+      "version": "unspecified",
+      "purl": "pkg:generic/moveit_resources_panda_description",
+      "bom-ref": "native/moveit_resources_panda_description@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "fanuc_ikfast_plugin",
+      "version": "unspecified",
+      "purl": "pkg:generic/fanuc_ikfast_plugin",
+      "bom-ref": "native/fanuc_ikfast_plugin@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "panda_ikfast_plugin",
+      "version": "unspecified",
+      "purl": "pkg:generic/panda_ikfast_plugin",
+      "bom-ref": "native/panda_ikfast_plugin@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "LAPACK",
+      "version": "unspecified",
+      "purl": "pkg:generic/LAPACK",
+      "bom-ref": "native/LAPACK@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "trac_ik_kinematics_plugin",
+      "version": "unspecified",
+      "purl": "pkg:generic/trac_ik_kinematics_plugin",
+      "bom-ref": "native/trac_ik_kinematics_plugin@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ur_kinematics",
+      "version": "unspecified",
+      "purl": "pkg:generic/ur_kinematics",
+      "bom-ref": "native/ur_kinematics@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "angles",
+      "version": "unspecified",
+      "purl": "pkg:generic/angles",
+      "bom-ref": "native/angles@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "Bullet",
+      "version": "unspecified",
+      "purl": "pkg:generic/Bullet",
+      "bom-ref": "native/Bullet@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "common_interfaces",
+      "version": "unspecified",
+      "purl": "pkg:generic/common_interfaces",
+      "bom-ref": "native/common_interfaces@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "eigen_stl_containers",
+      "version": "unspecified",
+      "purl": "pkg:generic/eigen_stl_containers",
+      "bom-ref": "native/eigen_stl_containers@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "fcl",
+      "version": "unspecified",
+      "purl": "pkg:generic/fcl",
+      "bom-ref": "native/fcl@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "osqp",
+      "version": "unspecified",
+      "purl": "pkg:generic/osqp",
+      "bom-ref": "native/osqp@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "rmw_implementation",
+      "version": "unspecified",
+      "purl": "pkg:generic/rmw_implementation",
+      "bom-ref": "native/rmw_implementation@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ruckig",
+      "version": "unspecified",
+      "purl": "pkg:generic/ruckig",
+      "bom-ref": "native/ruckig@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "shape_msgs",
+      "version": "unspecified",
+      "purl": "pkg:generic/shape_msgs",
+      "bom-ref": "native/shape_msgs@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "urdfdom",
+      "version": "unspecified",
+      "purl": "pkg:generic/urdfdom",
+      "bom-ref": "native/urdfdom@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "urdfdom_headers",
+      "version": "unspecified",
+      "purl": "pkg:generic/urdfdom_headers",
+      "bom-ref": "native/urdfdom_headers@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "ament_cmake_google_benchmark",
+      "version": "unspecified",
+      "purl": "pkg:generic/ament_cmake_google_benchmark",
+      "bom-ref": "native/ament_cmake_google_benchmark@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "benchmark",
+      "version": "unspecified",
+      "purl": "pkg:generic/benchmark",
+      "bom-ref": "native/benchmark@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "resource_retriever",
+      "version": "unspecified",
+      "purl": "pkg:generic/resource_retriever",
+      "bom-ref": "native/resource_retriever@unspecified"
+    }
+  ]
+}
